@@ -20,8 +20,9 @@ class EntityFactory:
                     list_bg.append(Background(f'Level1Bg{i}', (0, -WIN_HEIGHT)))
                 return list_bg
             case 'Player1':
-                return Player('Player1', (10, 210))
+                return Player('Player1', ((WIN_WIDTH / 2.2), 750))
             case 'Enemy1':
-                return Enemy('Enemy1', (WIN_WIDTH + 10, random.randint(40, 210)))
+                return Enemy('Enemy1', (random.randint(10, WIN_WIDTH), -10))
+
             case 'Enemy2':
-                return Enemy('Enemy2', (WIN_WIDTH + 10, random.randint(40, 210)))
+                return Enemy('Enemy2', (random.randint(10, WIN_WIDTH), -10))

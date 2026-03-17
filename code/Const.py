@@ -20,11 +20,11 @@ ENTITY_HEALTH = {
     'Level1Bg4': 999,
     'Level1Bg5': 999,
     'Level1Bg6': 999,
-    'Player1': 500,
+    'Player1': 1000,
     'Player1Shot': 1,
-    'Enemy1': 50,
+    'Enemy1': 200,
     'Enemy1Shot': 1,
-    'Enemy2': 60,
+    'Enemy2': 300,
     'Enemy2Shot': 1,
 
 }
@@ -38,7 +38,7 @@ ENTITY_DAMAGE = {
     'Level1Bg5': 0,
     'Level1Bg6': 0,
     'Player1': 0,
-    'Player1Shot': 25,
+    'Player1Shot': 50,
     'Enemy1': 1,
     'Enemy1Shot': 20,
     'Enemy2': 1,
@@ -69,11 +69,11 @@ ENTITY_SPEED = {
     'Level1Bg4': 4,
     'Level1Bg5': 5,
     'Level1Bg6': 6,
-    'Player1': 2,
-    'Player1Shot': 5,
-    'Enemy1': 4,
+    'Player1': 6,
+    'Player1Shot': 7,
+    'Enemy1': 2,
     'Enemy1Shot': 6,
-    'Enemy2': 4,
+    'Enemy2': 2,
     'Enemy2Shot': 7,
 }
 
@@ -109,7 +109,7 @@ TIMEOUT_STEP = 100 #100ms
 
 #W
 WIN_WIDTH = 576
-WIN_HEIGHT = 324
+WIN_HEIGHT = 848
 #img size
 
 SCORE_POS = {'Title': (WIN_WIDTH / 2, 50),

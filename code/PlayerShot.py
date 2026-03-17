@@ -7,4 +7,4 @@ class PlayerShot(Entity):
         super().__init__(name, position)
 
     def move(self, ):
-        self.rect.centerx += ENTITY_SPEED[self.name]
+        self.rect.centery -= ENTITY_SPEED[self.name]

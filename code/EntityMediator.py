@@ -1,4 +1,4 @@
-from code.Const import WIN_WIDTH
+from code.Const import WIN_WIDTH, WIN_HEIGHT
 from code.Enemy import Enemy
 from code.EnemyShot import EnemyShot
 from code.Entity import Entity
@@ -11,13 +11,13 @@ class EntityMediator:
     @staticmethod
     def __verify_collision_window(ent: Entity): #__ make fim a private method, just to be used here
         if isinstance(ent, Enemy):
-            if ent.rect.right < 0:
+            if ent.rect.top > WIN_HEIGHT:
                 ent.health = 0
         if isinstance(ent, PlayerShot):
-            if ent.rect.left >= WIN_WIDTH:
+            if ent.rect.bottom < 0:
                 ent.health = 0
         if isinstance(ent, EnemyShot):
-            if ent.rect.right <= 0:
+            if ent.rect.top > WIN_HEIGHT:
                 ent.health = 0
 
     @staticmethod
@@ -30,10 +30,6 @@ class EntityMediator:
         elif isinstance(ent1, Player) and isinstance(ent2, EnemyShot):
             valid_interaction = True
         elif isinstance(ent1, EnemyShot) and isinstance(ent2, Player):
-            valid_interaction = True
-        elif isinstance(ent1, Enemy) and isinstance(ent2, Player):
-            valid_interaction = True
-        elif isinstance(ent1, Player) and isinstance(ent2, Enemy):
             valid_interaction = True
 
         if valid_interaction: # if valid_interaction == True:
@@ -52,11 +48,6 @@ class EntityMediator:
             for ent in entity_list:
                 if ent.name == 'Player1':
                     ent.score += enemy.score
-        elif enemy.last_dmg == 'Player2Shot':
-            for ent in entity_list:
-                if ent.name == 'Player2':
-                    ent.score += enemy.score
-
 
     @staticmethod
     def verify_collision(entity_list: list[Entity]):

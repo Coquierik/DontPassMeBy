@@ -24,10 +24,10 @@ class Menu:
             self.window.blit(source=self.surf, dest=self.rect)
 
             # Game Title with shadow effect
-            self.menu_text(50, "Don't Pass", C_BLACK, ((WIN_WIDTH / 2), 70))
-            self.menu_text(50, "Don't Pass", C_WHITE, ((WIN_WIDTH / 2), 65))
-            self.menu_text(50, "Me By", C_BLACK, ((WIN_WIDTH / 2), 120))
-            self.menu_text(50, "Me By", C_WHITE, ((WIN_WIDTH / 2), 115))
+            self.menu_text(50, "Don't Pass", C_BLACK, ((WIN_WIDTH / 2), 195))
+            self.menu_text(50, "Don't Pass", C_WHITE, ((WIN_WIDTH / 2), 185))
+            self.menu_text(50, "Me By", C_BLACK, ((WIN_WIDTH / 2), 245))
+            self.menu_text(50, "Me By", C_WHITE, ((WIN_WIDTH / 2), 235))
 
             # Instructions
             self.menu_text(12, "Use W,D,S,A to Fly", C_YELLOW, (WIN_WIDTH - 70, WIN_HEIGHT - 20))
@@ -36,11 +36,11 @@ class Menu:
             # Menu options
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
-                    self.menu_text(30, f"> {MENU_OPTION[i]} <", C_YELLOW, ((WIN_WIDTH / 2), 200 + 35 * i))
+                    self.menu_text(30, f" {MENU_OPTION[i]} ", C_YELLOW, ((WIN_WIDTH / 2), 360 + 35 * i))
                 else:
-                    self.menu_text(30, MENU_OPTION[i], C_WHITE, ((WIN_WIDTH / 2), 200 + 35 * i))
+                    self.menu_text(30, MENU_OPTION[i], C_WHITE, ((WIN_WIDTH / 2), 360 + 35 * i))
 
-            self.menu_text(15, "Press ESC to quit", C_WHITE, ((WIN_WIDTH / 7), WIN_HEIGHT - 310))
+            self.menu_text(15, "Press ESC to quit", C_WHITE, ((WIN_WIDTH / 7), WIN_HEIGHT - 835))
 
             pygame.display.flip()
 
