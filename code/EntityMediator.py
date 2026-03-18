@@ -1,4 +1,4 @@
-from code.Const import WIN_WIDTH, WIN_HEIGHT
+from code.Const import WIN_HEIGHT
 from code.Enemy import Enemy
 from code.EnemyShot import EnemyShot
 from code.Entity import Entity
