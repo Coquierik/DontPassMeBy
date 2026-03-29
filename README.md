@@ -1,4 +1,7 @@
-![img](https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png)<h2># Don't Pass Me By</h2>![img](https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png)
+<h1 align="center">
+  <img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: middle;">
+  Don't Pass Me By
+</h1>
 
 <h4># About</h4>
 
