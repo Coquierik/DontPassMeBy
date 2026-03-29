@@ -1,7 +1,7 @@
 <h1 align="center">
-  <img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: left; margin-right: 30px">
+  <img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: middle; margin-right: 30px;">
   Don't Pass Me By
-  <img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: right; margin-left: 30px">
+  <img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: middle; margin-left: 30px;">
 </h1>
 
 <h4># About</h4>
