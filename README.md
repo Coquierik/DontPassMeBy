@@ -1,8 +1,9 @@
-<img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: middle; margin-right: 70px;">
-  <h1 align="center">
-    Don't Pass Me By
-  </h1>
-<img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: middle; margin-left: 70px;">
+<h1>
+  <img src="https://raw.githubusercontent.com/Coquierik/DontPassMeBy/feature_a/asset/Player1.png"
+       width="40"
+       style="vertical-align: middle; margin-right: 10px;">
+  Don't Pass Me By
+</h1>
 
 <h4># About</h4>
 
