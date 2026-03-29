@@ -31,7 +31,7 @@ class Menu:
 
             # Instructions
             self.menu_text(12, "Use W,D,S,A to Fly", C_YELLOW, (WIN_WIDTH - 70, WIN_HEIGHT - 20))
-            self.menu_text(12, "Press Ctrl to shoot", C_YELLOW, (80, WIN_HEIGHT - 20))
+            self.menu_text(12, "Press Space to shoot", C_WHITE, (80, WIN_HEIGHT - 20))
 
             # Menu options
             for i in range(len(MENU_OPTION)):
