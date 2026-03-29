@@ -3,10 +3,10 @@
   Don't Pass Me By
   <img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: middle;">
 </h1>
-<h4 align="center"># ABOUT</h4>
+<h4 align="center">## About the Game</h4>
 
 <p align="center">
-🚀 Don't Pass Me By is a 2d game, Single Player where your Spaceship has to survive and destroy more enemies that you can to win.<br>
+🚀 Don't Pass Me By is a 2d game, Single Player where your Spaceship has to survive and destroy as many enemies as possible to win.<br>
 🎮 Only Single Player available<br>
 💾 Score is saved in database (SQLite3)<br>
 🐍 Developed with Pygame
