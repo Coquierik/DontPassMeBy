@@ -11,10 +11,14 @@ Only Single Player available<br>
 Score is saved in database (SQLite3)
 </section>
 
-<img width="572" height="874" alt="image" src="https://github.com/user-attachments/assets/af5a483e-a3c0-40bf-8aa5-962eed0aa605" />
+#Menu
+<img width="572" height="846" alt="image" src="https://github.com/user-attachments/assets/a1bdb134-ca3c-4509-bb69-1cae539c0d44" />
 
+#level 1
+<img width="573" height="845" alt="image" src="https://github.com/user-attachments/assets/5c216e10-9bca-488b-ae94-6304e8fbb4d9" />
 
-
+#Score
+<img width="575" height="845" alt="image" src="https://github.com/user-attachments/assets/bd89ee0a-c346-40e2-9931-f498f34b99ce" />
 
 
 <h4># Feel free to to contribute!</h4>
