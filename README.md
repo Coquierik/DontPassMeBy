@@ -1,7 +1,7 @@
 <h1>
   <img src="https://raw.githubusercontent.com/Coquierik/DontPassMeBy/feature_a/asset/Player1.png"
        width="40"
-       style="vertical-align: middle; margin-right: 10px;">
+       style="vertical-align: middle; margin-right: 100px;">
   Don't Pass Me By
 </h1>
 
