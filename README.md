@@ -10,4 +10,12 @@ Don't Pass Me By is a 2d game, Single Player where your Spaceship has to survive
 Only Single Player available<br>
 Score is saved in database (SQLite3)
 </section>
+
+<img width="572" height="874" alt="image" src="https://github.com/user-attachments/assets/af5a483e-a3c0-40bf-8aa5-962eed0aa605" />
+
+
+
+
+
 <h4># Feel free to to contribute!</h4>
+
