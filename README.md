@@ -6,10 +6,10 @@
 <h4 align="center"># ABOUT</h4>
 
 <p align="center">
-  Don't Pass Me By is a 2d game, Single Player where your Spaceship has to survive and destroy more enemies that you can to win.<br>
-  Only Single Player available<br>
-  Score is saved in database (SQLite3)<br>
-  Developed with Pygame
+🚀 Don't Pass Me By is a 2d game, Single Player where your Spaceship has to survive and destroy more enemies that you can to win.<br>
+🎮 Only Single Player available<br>
+💾 Score is saved in database (SQLite3)<br>
+🐍 Developed with Pygame
 </p>
 
 <div align="center">
