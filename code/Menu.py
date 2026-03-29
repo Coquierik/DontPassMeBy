@@ -30,8 +30,8 @@ class Menu:
             self.menu_text(50, "Me By", C_WHITE, ((WIN_WIDTH / 2), 235))
 
             # Instructions
-            self.menu_text(12, "Use W,D,S,A to Fly", C_YELLOW, (WIN_WIDTH - 70, WIN_HEIGHT - 20))
-            self.menu_text(12, "Press Space to shoot", C_WHITE, (80, WIN_HEIGHT - 20))
+            self.menu_text(14, "USE W, D, S, A TO FLY", C_WHITE, (WIN_WIDTH - 90, WIN_HEIGHT - 20))
+            self.menu_text(14, "PRESS SPACE TO SHOOT", C_WHITE, (90, WIN_HEIGHT - 20))
 
             # Menu options
             for i in range(len(MENU_OPTION)):
