@@ -1,4 +1,4 @@
-https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png # Don't Pass Me By https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png
+![img](https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png) # Don't Pass Me By ![img](https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png)
 
 #About
 
