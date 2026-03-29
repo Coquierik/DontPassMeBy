@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: middle;">
+  <img src="https://github.com/Coquierik/DontPassMeBy/blob/feature_a/asset/Player1.png" width="50" style="vertical-align: left;">
   Don't Pass Me By
 </h1>
 
