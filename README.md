@@ -6,8 +6,8 @@
 <h4># About</h4>
 
 <section>
-Don't Pass Me By is a 2d game, Single Player where your Spaceship has to survive and destroy more enemies that you can to win.
-Only Single Player available
+Don't Pass Me By is a 2d game, Single Player where your Spaceship has to survive and destroy more enemies that you can to win.<br>
+Only Single Player available<br>
 Score is saved in database (SQLite3)
 </section>
 <h4># Feel free to to contribute!</h4>
