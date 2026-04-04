@@ -97,7 +97,7 @@ PLAYER_KEY_LEFT = {'Player1': pygame.K_a}
 
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_d}
 
-PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL}
+PLAYER_KEY_SHOOT = {'Player1': pygame.K_SPACE}
 
 
 #S
